@@ -7,4 +7,4 @@ function Row(props) {
 export default Row;
 
 
-// Copied from 19 mini project, thinking each row per person data
+// Copied from 19 mini project, thinking each row per person data.

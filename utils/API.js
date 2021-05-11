@@ -2,15 +2,10 @@ import axios from "axios";
 
 export default{
  getRandomPeople: function(){
-    // use randomAPI to get (x) amount of results to populate page
- },
- getPeopleNames: function(names){
- //    as the user types filter through the names of the employees for matches
- },
- getPhoneNumber: function(phone){
- // as the user types numbers filter for matching phone digits
+   return axios.get("https://randomuser.me/api/?inc=100,nat,name,email,dob,phone,picture");
  }
-
+    // use randomAPI to get (x) amount of results to populate page
+   //  not able to specify thumbnail photo in this call and getting full name object and full dob object- don't need to display all of the data
 };
 
 // api call results.name
@@ -20,4 +15,3 @@ export default{
 //   results.info.seed?
 
 
-// API key: HG6F-T9JG-NAFQ-KJKA

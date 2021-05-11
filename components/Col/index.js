@@ -8,4 +8,4 @@ function Col(props) {
 
 export default Col;
 
-// Copied from 19 mini project, use with their Row format?
+// Copied from 19 mini project, use with their Row format? 
