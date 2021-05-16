@@ -1,4 +1,4 @@
-import React, { Compenent } from "react";
+import React, { Component } from "react";
 import "../../pages/search";
 
 function Container(props) {

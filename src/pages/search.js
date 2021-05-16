@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWindowClose } from "@fortawesome/free-solid-svg-icons";
 import "../index.css";
 import Title from "../components/Title/index";
-
 
 
 
@@ -20,20 +20,16 @@ return (
    placeholder="Search"
    id="search"
   /> 
-
-
- </div>
-
-
-
-
-
-
- </div>
-</form>
-)
-
-
-
+  <FontAwesomeIcon
+   className="caret"
+   icon={faWindowClose}
+   onClick={handleFormSubmit}
+   />
+  </div>
+  </div>
+ </form>
+ );
 
 }
+
+export default SearchForm;
