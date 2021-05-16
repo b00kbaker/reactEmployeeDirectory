@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Compenent } from "react";
+import "../../pages/search";
 
 function Container(props) {
   return <div className="container" style={props.style}>{props.children}</div>;
